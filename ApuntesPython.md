@@ -1,5 +1,5 @@
-APUNTES DE PYTHON
-#cadena de caracteres
+# APUNTES DE PYTHON
+## cadena de caracteres
 cad = "hola mundo"
 
 cad[2:5] print(cad) #te dice la parte de la cadena
@@ -18,7 +18,7 @@ cad.replace("h","m").strip() #sustituyes y quita los espacios
 cad.split("/") print(cad) #quita separadores (: o /)
 
 
-#listas
+## listas
 
 listas = [1,2,3]
 listas2 = [1,"hola",True]
@@ -68,7 +68,7 @@ else:
 	print("No es Primo")
 
 
-#Diccionario
+## Diccionario
 
 #Meter valores
 dic["nombre"]="pepe"
