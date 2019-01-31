@@ -1,52 +1,83 @@
 # APUNTES DE PYTHON
-## cadena de caracteres
+## Cadena de caracteres
 cad = "hola mundo"
 
-cad[2:5] print(cad) #te dice la parte de la cadena
-cad.lower() print(cad) #minuscula
-cad.upper() print(cad) #mayuscula
+cad[2:5] print(cad) te dice la parte de la cadena
+
+cad.lower() print(cad) minuscula
+
+cad.upper() print(cad) mayuscula
+
 cad.title() print(cad) #primera palabra en mayuscula
+
 cad.count("o") print(cad) #Contador
+
 cad.count("o",5)
+
 cad.count("o",2,5)
+
 "o" in cad  print(cad) #Me dice si esta la letra
+
 cad.find(la) print(cad) #Dice la posicion
+
 cad.startswith(h) print(cad) #Te dice si empieza
+
 cad.endswith(do) print(cad) #Te dice si termina
+
 cad.strip() print(cad) #quitar los espacios
+
 cad.replace("h","m").strip() #sustituyes y quita los espacios
+
 cad.split("/") print(cad) #quita separadores (: o /)
 
 
-## listas
+
+## Listas
 
 listas = [1,2,3]
+
 listas2 = [1,"hola",True]
+
 listas = []
 
-#para recorrer una lista
+#Para recorrer una lista
 for elem in list3:
 print (elem)
 
 for i,j in zip(lista3,lista4) #te separa los valores
+
 len(lista) #catidad de cosas
+
 sum(lista) #suma los numeros en la lista
+
 lista.append("A") #añade un valor
+
 lista[0] = "A" #Cambia el contenido
+
 sorted(lista) #Lista ordenada
+
 del lista[3] #borra ese valor de la lista
+
 lista.insert(1,100) #1 es la posicion y el 100 el valor añadido
+
 lista.pop() #quita el ultimo valor y te lo muestra
+
 lista.pop(1) #te quita el de la posicion
+
 lista.remove(5) #quita el primer valor
+
 lista.reverse() #pone del reves el orden de los valores
+
 lista.index(5) #te dice la primera posicion del valor pedido
+
 lista.count(5) #cuenta cuantos valores existen
+
 lista =[[1,2,3][4,5,6][7,8,9]]
-for i in lista
+
+"for i in lista
     for j in i:
         print(j)
-buscar opcion zip
+buscar opcion zip"
 
 for palabras in range(0,num):
 	nombre=input("Dime una la palabra: ")
@@ -68,7 +99,7 @@ else:
 	print("No es Primo")
 
 
-## Diccionario
+## Diccionarios
 
 #Meter valores
 dic["nombre"]="pepe"
