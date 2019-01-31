@@ -141,9 +141,10 @@ for clave,valor in dic.items()
 
 print (alumno[1]["notas"][1])
 
-#PROGRAMACIÓN ESTRUCTURADA
+# PROGRAMACIÓN ESTRUCTURADA
+
 def calcular.media(numero1,numero2):
-    resultado=(numero1+numero2)/2
+    resultado=(numero1+numero2)/2  
     return resultado
 ---------------------------------
 
