@@ -74,10 +74,9 @@ lista.count(5) #cuenta cuantos valores existen
 
 lista =[[1,2,3][4,5,6][7,8,9]]
 
-"for i in lista
-    for j in i:
-        print(j)
-buscar opcion zip"
+"for i in lista:
+    for j in i:	
+ 	print(j)"
 
 for palabras in range(0,num):
 	nombre=input("Dime una la palabra: ")
@@ -173,18 +172,3 @@ def fact(num):
     else:
         return num*fact(num-1)
 
-#ejer2
-lineas=fichero.readlines()
-nombre=input("Usuario:")
-for linea in lineas:
-    if nombre==linea.split(":")[0]
-        sal=linea.split(":")[1][:12]
-
-passwd=input("contraseña:")
-if crypt (pass,sal)==linea.split(":")[1]
-
-#ejer5
-ciudad.split(",")[1].split(":")[1].strip()[1:-1]
-
-#ejer6
-str(lineas[1356]).split(">")[1][:2]
