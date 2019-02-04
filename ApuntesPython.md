@@ -40,7 +40,7 @@ listas2 = [1,"hola",True]
 
 listas = []
 
-#Para recorrer una lista
+#### Para recorrer una lista
 	
 	for elem in list3:
 		print (elem)
@@ -75,13 +75,13 @@ lista.count(5) #cuenta cuantos valores existen
 
 lista =[[1,2,3][4,5,6][7,8,9]]
 
-Lista dentro de otra lista:
+#### Lista dentro de otra lista:
 
         for i in lista:
                 for j in i:	
  	                print(j)
 
-Añadir con un for:
+#### Añadir con un for:
 
         for palabras in range(0,num):
 	        nombre=input("Dime una la palabra: ")
@@ -109,7 +109,7 @@ len(dic) #Longitud de el Diccionario
 len(dic[nombre]) #Longitud de el elemento especificado
 edad in dic #te dice la clave esta en el Diccionario
 
-#Diccionario dentro de una lista
+#### Diccionario dentro de una lista
 alumnos=[]
 alumnos.append(dic)
 for alumno in alumnos:
@@ -120,22 +120,22 @@ dic.clear() #vacia el diccionario
 dic.update(dic2) #Añade o actuliza elementos de dos diccionarios
 dic.get("nombre") o dic.get("Notas",0) #Te muestra el valor o te muestra el error que le indiques
 
-#Nos da el error false y me mete notas en el diccionario
+#### Nos da el error false y me mete notas en el diccionario
 	
 	if not dic2.get("notas",False)
  	   dic2["notas"]=[]
 
-#lista de las claves
+#### Lista de las claves
 
 	for i in dic.keys() 
   	  print (i)
 	  
- #lista de valores
+#### Lista de valores
  
 	for i in dic.values()
 	    print (i)
 
-#lista de las claves y los valores
+#### Lista de las claves y los valores
 
 	for clave,valor in dic.items()
 
@@ -170,7 +170,7 @@ _________________________________________________
 	b = int (input())
 	y = sumar (a,b,5)
 
-#recursividad
+#### Recursividad
 	
 	def fact(num):
     		if num=1
