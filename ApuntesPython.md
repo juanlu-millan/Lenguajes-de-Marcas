@@ -95,29 +95,38 @@ lista =[[1,2,3][4,5,6][7,8,9]]
 
 ## Diccionarios
 
-#Meter valores
+#### Meter valores
 dic["nombre"]="pepe"
+
 dic["edad"]=18
+
 dic["notas"]=[4,5,6]
 
 print (dic["nombre"])
+
 dic["notas"].append(7)
 
-#Diccionarios dentro de otro
+#### Diccionarios dentro de otro
 dic["Direccion"]={"Calle":"Las Botijas","num":10}
+
 len(dic) #Longitud de el Diccionario
+
 len(dic[nombre]) #Longitud de el elemento especificado
+
 edad in dic #te dice la clave esta en el Diccionario
 
 #### Diccionario dentro de una lista
-alumnos=[]
-alumnos.append(dic)
-for alumno in alumnos:
-    print(alumno["nombre"])
+	alumnos=[]
+	alumnos.append(dic)
+	for alumno in alumnos:
+   		print(alumno["nombre"])
 
 dic3=dic2.copy() #copia diccionario
+
 dic.clear() #vacia el diccionario
+
 dic.update(dic2) #Añade o actuliza elementos de dos diccionarios
+
 dic.get("nombre") o dic.get("Notas",0) #Te muestra el valor o te muestra el error que le indiques
 
 #### Nos da el error false y me mete notas en el diccionario
