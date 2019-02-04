@@ -138,33 +138,36 @@ print (alumno[1]["notas"][1])
 
 # PROGRAMACIÓN ESTRUCTURADA
 
-def calcular.media(numero1,numero2):
-    resultado=(numero1+numero2)/2  
-    return resultado
----------------------------------
+	def calcular.media(numero1,numero2):
+ 		resultado=(numero1+numero2)/2  
+  			return resultado
+***
 
-print (calcular.media(7.2))
-num1 = int(input("numero1"))
-num2 = int(input("numero2"))
+	print (calcular.media(7.2))
+	num1 = int(input("numero1"))
+	num2 = int(input("numero2"))
 
-media = calcular_media(num1,num2)
-print (media)
+	media = calcular_media(num1,num2)
+	print (media)
 
 
-+++++++++++++++++++++++++++++++++
+_________________________________________________
 
-def sumar(num1,num2,num3=0):
-    return num1+num2+num3
 
----------------------------------
-a = int (input())
-b = int (input())
-y = sumar (a,b,5)
+	def sumar(num1,num2,num3=0):
+    	return num1+num2+num3
+
+***
+
+	a = int (input())
+	b = int (input())
+	y = sumar (a,b,5)
 
 #recursividad
-def fact(num):
-    if num=1
-        return 1
-    else:
-        return num*fact(num-1)
+	
+	def fact(num):
+    		if num=1
+        		return 1
+   		else:
+        		return num*fact(num-1)
 
