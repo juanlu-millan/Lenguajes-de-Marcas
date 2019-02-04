@@ -41,8 +41,9 @@ listas2 = [1,"hola",True]
 listas = []
 
 #Para recorrer una lista
-for elem in list3:
-print (elem)
+	
+	for elem in list3:
+		print (elem)
 
 for i,j in zip(lista3,lista4) #te separa los valores
 
@@ -74,11 +75,15 @@ lista.count(5) #cuenta cuantos valores existen
 
 lista =[[1,2,3][4,5,6][7,8,9]]
 
-        $ for i in lista:
+Lista dentro de otra lista:
+
+        for i in lista:
                 for j in i:	
  	                print(j)
 
-       $ for palabras in range(0,num):
+Añadir con un for:
+
+        for palabras in range(0,num):
 	        nombre=input("Dime una la palabra: ")
 	        lista_solo.append(nombre)
 	        edad=int(input("Dime una edad: "))
