@@ -121,20 +121,21 @@ dic.update(dic2) #Añade o actuliza elementos de dos diccionarios
 dic.get("nombre") o dic.get("Notas",0) #Te muestra el valor o te muestra el error que le indiques
 
 #Nos da el error false y me mete notas en el diccionario
-if not dic2.get("notas",False)
-    dic2["notas"]=[]
+	
+	if not dic2.get("notas",False)
+ 	   dic2["notas"]=[]
 
-for i in dic.keys() #lista de las claves
-    print (i)
+	for i in dic.keys() #lista de las claves
+  	  print (i)
 
-for i in dic.values() #lista de valores
-    print (i)
+	for i in dic.values() #lista de valores
+	    print (i)
 
-for clave,valor in dic.items()
+	for clave,valor in dic.items()
 
-    print (clave,valor)
+ 	   print (clave,valor)
 
-print (alumno[1]["notas"][1])
+	print (alumno[1]["notas"][1])
 
 # PROGRAMACIÓN ESTRUCTURADA
 
