@@ -125,11 +125,17 @@ dic.get("nombre") o dic.get("Notas",0) #Te muestra el valor o te muestra el erro
 	if not dic2.get("notas",False)
  	   dic2["notas"]=[]
 
-	for i in dic.keys() #lista de las claves
-  	  print (i)
+#lista de las claves
 
-	for i in dic.values() #lista de valores
+	for i in dic.keys() 
+  	  print (i)
+	  
+ #lista de valores
+ 
+	for i in dic.values()
 	    print (i)
+
+#lista de las claves y los valores
 
 	for clave,valor in dic.items()
 
