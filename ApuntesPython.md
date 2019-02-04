@@ -74,28 +74,18 @@ lista.count(5) #cuenta cuantos valores existen
 
 lista =[[1,2,3][4,5,6][7,8,9]]
 
-"for i in lista:
-    for j in i:	
- 	print(j)"
+        $ for i in lista:
+                for j in i:	
+ 	                print(j)
 
-for palabras in range(0,num):
-	nombre=input("Dime una la palabra: ")
-	lista_solo.append(nombre)
-	edad=int(input("Dime una edad: "))
-	lista_edad.append(edad)
-	lista_conjunta.append(lista_solo+lista_edad)
-	del lista_solo[0]
-	del lista_edad[0]
-
-es_primo = True
-numero_es_primo = int(input("Introduce un número para comprobar si es primo:"))
-for num in range(2, numero_es_primo):
-	if numero_es_primo % num == 0:
-		es_primo = False
-if es_primo:
-	print("Es Primo")
-else:
-	print("No es Primo")
+       $ for palabras in range(0,num):
+	        nombre=input("Dime una la palabra: ")
+	        lista_solo.append(nombre)
+	        edad=int(input("Dime una edad: "))
+	        lista_edad.append(edad)
+	        lista_conjunta.append(lista_solo+lista_edad)
+	        del lista_solo[0]
+	        del lista_edad[0]
 
 
 ## Diccionarios
